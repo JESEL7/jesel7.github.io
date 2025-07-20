@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+    color: white;
+}
+.skills{
+    font-size: 2.5em;
+    
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    background: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 16px;
+    transition: 0.5s;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.skills h2 {
+    text-align: center; /* Change to left-aligned */
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #330000 0%, #b22222 40%, #ff416c 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    width: 150px;
+    height: 150px;
+    width: revert-layer;
+}
+
+.skill-card:nth-child(1) {
+    animation: fadeIn 1s forwards 0.5s;
+}
+
+.skill-card:nth-child(2) {
+    animation: fadeIn 1s forwards 1s;
+}
+
+.skill-card:nth-child(3) {
+    animation: fadeIn 1s forwards 1.5s;
+}
+
+.skill-card:nth-child(4) {
+    animation: fadeIn 1s forwards 2s;
+}
+
+.skill-card:nth-child(5) {
+    animation: fadeIn 1s forwards 2.5s;
+}
+
+.skill-card:nth-child(6) {
+    animation: fadeIn 1s forwards 3s;
+}
+
+
+.skill-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.skill-card span {
+    font-size: 2.2rem;
+    color: white;
+}

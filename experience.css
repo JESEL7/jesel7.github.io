@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    color: white;
+}
+
+.experience-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.experience-card {
+    width: 350px;
+    height: 350px;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.experience-image {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.experience-info {
+    flex: 1;
+    padding: 2rem;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.experience-info h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.experience-info p {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.experience-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 7rem;
+    letter-spacing: 1px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 2rem;
+}
